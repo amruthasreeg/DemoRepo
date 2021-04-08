@@ -23,6 +23,9 @@ public class Sample
 		WebElement btnLogin=l.getBtnLogin();
 		b.btnClick(btnLogin);
 		
+		WebElement btn=l.getBtnLogin();
+		b.btnClick(btnLogin);
+		
 	}
 
 
